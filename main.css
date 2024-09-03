@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-size: 1.3em;
+    vertical-align: top;
+    background-color: #888;
+    font-family: Trebuchet, "trebuchet ms", Tahoma, Verdana, Arial, sans-serif;
+    position: relative;
+    color: white;
+    text-shadow: 0 0 12px black;
+}
+
+blockquote{
+    font-size: 24px;
+    font-family: monospace;
+}
+
+h1,h2,h3,h4{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+#title{
+    margin: 9px 0 0 -485px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 100;
+}
+#contact{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: -450px;
+    z-index: 100;
+}
+
+#outer{
+
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 50px black;
+    width: 940px;
+    height: 100%;
+    background: url(suv-dark.jpg);
+    padding: 20px;
+}
+
+#masthead{
+    width: 980px;
+    height: 475px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column{
+    display: inline-block;
+    width: 240px;
+    margin: 24px;
+    min-height: 240px;
+}
+.column img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1px black;
+}
+.dark-box{
+    opacity: 0.8;
+    color: white;
+    text-shadow: 0 0 3px black;
+    background-color: black;
+    border: 6px solid white;
+    padding: 9px;
+    margin: 9px;
+
+    vertical-align: top;
+    border-radius: 18px;
+    box-shadow: 0 0 12px black;
+}
+.photo-list, .photo-list a{
+    position: relative;
+    text-align: center;
+}
+.photo-list div{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.photo-list img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1px black;
+}
+
+.photo-list li, .photo{
+    display: inline-block;
+    border: 16px solid white;
+    text-align: center;
+    box-shadow: 0 0 24px black;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    margin: 9px;
+    vertical-align: top;
+
+}
